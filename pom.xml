@@ -5,4 +5,25 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>dubbo_api</name>
   <description>dubbo_api</description>
+  
+  <dependencies>
+		<dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.12.6</version>
+            <scope>provided</scope>
+        </dependency>
+  </dependencies>
+  
+ <build>
+ 	<plugins>
+ 			<!-- lombok插件 -->
+            <plugin>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok-maven-plugin</artifactId>
+                <version>1.12.6.0</version>
+            </plugin>
+ 	</plugins>
+ </build>
+  
 </project>
